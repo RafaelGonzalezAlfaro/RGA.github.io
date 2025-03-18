@@ -26,15 +26,19 @@ Orientación a resultados / Organización / Proactividad / Atención al detalle 
 ## Identificar operadores ineficaces
 El objetivo de nuestro análisis es desarrollar un sistema para identificar operadores ineficaces con el cual, se busca mejorar la calidad del servicio, 
 reducir la pérdida de clientes y optimizar la asignación de recursos.
+
 Este enfoque va dirigido a supervisores y gerencia, los cuales utilizarán esta información para la gestión del rendimiento, la formación de operadores 
 y la planificación de la capacidad. Los cuales se beneficiarán de una mayor eficiencia operativa y satisfacción del cliente.
+
 Se tomaron decisiones sobre la capacitación adicional de los operadores, la reasignación de tareas, la optimización de los flujos de trabajo e incluso 
 posibles medidas disciplinarias o de incentivos. El análisis también puede ayudar a identificar problemas sistémicos que contribuyen a la ineficiencia.
 
 ### Metodología
 
 **Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
+
 **Exploratory Data Analysis (EDA):** Se analizaron distintos datos, se crearon histogramas y graficas para visualizacion de datos mas claramente
+
 **Pruebas de Hipotesis:** Se realizaron pruebas de hipotesis para observar si la tasa de llamadas perdidas no está correlacionada con el tiempo de espera y 
 si hay alguna diferencia en el tiempo de espera entre operadores eficientes e ineficientes.
 
@@ -63,7 +67,7 @@ tener tiempos de espera considerablemente más largos que los operadores "eficie
 
 ![Time Related Graf](/assets/img/TIME_RELATED_GRAF.png)
 
-3. **relación de tiempo de espera y tasa de llamadas perdidas**
+2. **relación de tiempo de espera y tasa de llamadas perdidas**
 la relación a medida que aumenta el tiempo de espera, la tasa de llamadas perdidas disminuye.
 Esto sugiere que los usuarios entre más duración tienen en la llamada, tienen a seguir en ella,
 quizá porque no quieren perder el tiempo que llevan esperando.
@@ -79,28 +83,36 @@ eficientes e ineficientes en base al tiempo de espera de las llamadas, podemos c
 
 ● No hay una gran diferencia en la tendencia central de la tasa de llamadas perdidas entre los diferentes
 cuartiles de tiempo de espera.
+
 ● Existe una correlación negativamente significativa entre el tiempo de espera y la tasa de llamadas perdidas.
 A medida que aumenta el tiempo de espera, la tasa de llamadas perdidas disminuye.
+
 ● Existe una diferencia estadísticamente significativa entre los operadores eficientes e ineficientes, es decir,
 los operadores clasificados como "ineficientes" tienden a tener tiempos de espera considerablemente más
 largos que los operadores "eficientes".
+
 ● Las llamadas sin identificación (desconocidas) representan una gran parte de los datos, creando
 posibles sesgos en los datos.
 
 ## Acciones recomendadas:
 ❖ Optimizar procesos:
+
 ➢ Analizar los flujos de trabajo y sistemas actuales para identificar posibles cuellos de botella.
+
 ➢ Implementar mejoras en los procesos para agilizar el manejo de llamadas y reducir el tiempo que los
 clientes pasan esperando.
 
 ❖ Mejorar la capacitación:
+
 ➢ Proporcionar a los operadores capacitación adicional sobre el manejo eficiente de llamadas, incluyendo
 técnicas de comunicación, manejo de objeciones y resolución de problemas.
 
 ❖ Ajustar la asignación de personal:
+
 ➢ Analizar la demanda de llamadas en diferentes horarios y días de la semana para optimizar la programación
 del personal y asegurar una cobertura adecuada en los momentos de mayor demanda.
 
 ❖ Implementar sistemas de enrutamiento inteligente:
+
 ➢ Utilizar sistemas que distribuyan las llamadas de manera más eficiente entre los operadores disponibles,
 teniendo en cuenta la experiencia y habilidades de cada uno, con una mejor clasificación del cliente que llama.
