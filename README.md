@@ -16,8 +16,8 @@ Me caracterizo por mi orientación a resultados, capacidad de adaptación y comp
 
 ## Competencias
 
-Análisis de datos / Análisis y Resolución de problemas / Comunicación efectiva / Responsabilidad / Trabajo en equipo / 
-Orientación a resultados / Organización / Proactividad / Atención al detalle / Optimización de Procesos / Liderazgo / Compromiso
+Análisis de datos | Análisis y Resolución de problemas | Comunicación efectiva | Responsabilidad | Trabajo en equipo |
+Orientación a resultados | Organización | Proactividad | Atención al detalle | Optimización de Procesos | Liderazgo | Compromiso
 
 ## Mas sobre mi:
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelgonzalezalfaro/)
