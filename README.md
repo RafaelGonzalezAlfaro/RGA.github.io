@@ -55,6 +55,21 @@ Herramientas utilizadas en este proyecto:
 2. ¿Hay diferencia en el tiempo de espera entre operadores eficientes e ineficientes?
 3. ¿Que estrategias podemos utilizar basado en nuestros resultados para optimizar el servicio?
 
+## Visualizaciones destacadas
+
+1. **relación de tiempo de espera promedio por eficiencia**
+Deacuerdo a la gráfica contamos con evidencia visual de que los operadores clasificados como "ineficientes" tienden a
+tener tiempos de espera considerablemente más largos que los operadores "eficientes".
+![Time Related Graf](/assets/img/TIME_RELATED_GRAF.png)
+
+2. **relación de tiempo de espera y tasa de llamadas perdidas**
+la relación a medida que aumenta el tiempo de espera, la tasa de llamadas perdidas disminuye.
+Esto sugiere que los usuarios entre más duración tienen en la llamada, tienen a seguir en ella,
+quizá porque no quieren perder el tiempo que llevan esperando.
+![Llamadas perdidas](/assets/img/LLAMADAS_PERDIDAS.png)
+
+**Más detalles de este proyecto aqui -> [repositorio completo](https://github.com/RafaelGonzalezAlfaro/Telecom_operadores_ineficaces).**
+
 ## Conclusiones generales y recomendaciones:
 ### En base al análisis:
 de acuerdo al tiempo de espera en las llamadas, tasa de llamadas perdidas y la eficiencia de los operadores
