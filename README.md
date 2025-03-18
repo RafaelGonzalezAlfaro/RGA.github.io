@@ -14,7 +14,7 @@ Me caracterizo por mi orientación a resultados, capacidad de adaptación y comp
 - Visualización de datos usando **Tableau**
 - Manejo de programas **VS code / Jupiter**
 
-##Competencias
+## Competencias
 
 Análisis de datos / Análisis y Resolución de problemas / Comunicación efectiva / Responsabilidad / Trabajo en equipo / 
 Orientación a resultados / Organización / Proactividad / Atención al detalle / Optimización de Procesos / Liderazgo / Compromiso
@@ -35,11 +35,9 @@ posibles medidas disciplinarias o de incentivos. El análisis también puede ayu
 
 ### Metodología
 
-**Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
-
-**Exploratory Data Analysis (EDA):** Se analizaron distintos datos, se crearon histogramas y graficas para visualizacion de datos mas claramente
-
-**Pruebas de Hipotesis:** Se realizaron pruebas de hipotesis para observar si la tasa de llamadas perdidas no está correlacionada con el tiempo de espera y 
+- **Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
+- **Exploratory Data Analysis (EDA):** Se analizaron distintos datos, se crearon histogramas y graficas para visualizacion de datos mas claramente
+- **Pruebas de Hipotesis:** Se realizaron pruebas de hipotesis para observar si la tasa de llamadas perdidas no está correlacionada con el tiempo de espera y 
 si hay alguna diferencia en el tiempo de espera entre operadores eficientes e ineficientes.
 
 Herramientas utilizadas en este proyecto:
@@ -81,38 +79,34 @@ quizá porque no quieren perder el tiempo que llevan esperando.
 de acuerdo al tiempo de espera en las llamadas, tasa de llamadas perdidas y la eficiencia de los operadores
 eficientes e ineficientes en base al tiempo de espera de las llamadas, podemos concluir que:
 
-● No hay una gran diferencia en la tendencia central de la tasa de llamadas perdidas entre los diferentes
-cuartiles de tiempo de espera.
+- No hay una gran diferencia en la tendencia central de la tasa de llamadas perdidas entre los diferentes cuartiles de tiempo de espera.
+- Existe una correlación negativamente significativa entre el tiempo de espera y la tasa de llamadas perdidas.
+  A medida que aumenta el tiempo de espera, la tasa de llamadas perdidas disminuye.
+- Existe una diferencia estadísticamente significativa entre los operadores eficientes e ineficientes, es decir,
+  los operadores clasificados como "ineficientes" tienden a tener tiempos de espera considerablemente más
+  largos que los operadores "eficientes".
 
-● Existe una correlación negativamente significativa entre el tiempo de espera y la tasa de llamadas perdidas.
-A medida que aumenta el tiempo de espera, la tasa de llamadas perdidas disminuye.
-
-● Existe una diferencia estadísticamente significativa entre los operadores eficientes e ineficientes, es decir,
-los operadores clasificados como "ineficientes" tienden a tener tiempos de espera considerablemente más
-largos que los operadores "eficientes".
-
-● Las llamadas sin identificación (desconocidas) representan una gran parte de los datos, creando
-posibles sesgos en los datos.
+- Las llamadas sin identificación (desconocidas) representan una gran parte de los datos, creando posibles sesgos en los datos.
 
 ## Acciones recomendadas:
-❖ Optimizar procesos:
+- Optimizar procesos:
 
 ➢ Analizar los flujos de trabajo y sistemas actuales para identificar posibles cuellos de botella.
 
 ➢ Implementar mejoras en los procesos para agilizar el manejo de llamadas y reducir el tiempo que los
 clientes pasan esperando.
 
-❖ Mejorar la capacitación:
+- Mejorar la capacitación:
 
 ➢ Proporcionar a los operadores capacitación adicional sobre el manejo eficiente de llamadas, incluyendo
 técnicas de comunicación, manejo de objeciones y resolución de problemas.
 
-❖ Ajustar la asignación de personal:
+- Ajustar la asignación de personal:
 
 ➢ Analizar la demanda de llamadas en diferentes horarios y días de la semana para optimizar la programación
 del personal y asegurar una cobertura adecuada en los momentos de mayor demanda.
 
-❖ Implementar sistemas de enrutamiento inteligente:
+- Implementar sistemas de enrutamiento inteligente:
 
 ➢ Utilizar sistemas que distribuyan las llamadas de manera más eficiente entre los operadores disponibles,
 teniendo en cuenta la experiencia y habilidades de cada uno, con una mejor clasificación del cliente que llama.
