@@ -104,7 +104,7 @@ técnicas de comunicación, manejo de objeciones y resolución de problemas.
 ➢ Analizar la demanda de llamadas en diferentes horarios y días de la semana para optimizar la programación
 del personal y asegurar una cobertura adecuada en los momentos de mayor demanda.
 
-- Implementar sistemas de enrutamiento inteligente:
+- **Implementar sistemas de enrutamiento inteligente:**
 
 ➢ Utilizar sistemas que distribuyan las llamadas de manera más eficiente entre los operadores disponibles,
 teniendo en cuenta la experiencia y habilidades de cada uno, con una mejor clasificación del cliente que llama.
