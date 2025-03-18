@@ -16,7 +16,7 @@ Me caracterizo por mi orientación a resultados, capacidad de adaptación y comp
 
 ## Competencias
 
-Análisis de datos | Análisis y Resolución de problemas | Comunicación efectiva | Responsabilidad | Trabajo en equipo | Orientación a resultados | Organización | Proactividad | Atención al detalle | Optimización de Procesos | Liderazgo | Compromiso
+Análisis de datos / Análisis y Resolución de problemas / Comunicación efectiva / Responsabilidad / Trabajo en equipo / Orientación a resultados / Organización / Proactividad / Atención al detalle / Optimización de Procesos / Liderazgo / Compromiso
 
 ## Mas sobre mi:
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelgonzalezalfaro/)
@@ -84,23 +84,22 @@ eficientes e ineficientes en base al tiempo de espera de las llamadas, podemos c
 - Existe una diferencia estadísticamente significativa entre los operadores eficientes e ineficientes, es decir,
   los operadores clasificados como "ineficientes" tienden a tener tiempos de espera considerablemente más
   largos que los operadores "eficientes".
-
 - Las llamadas sin identificación (desconocidas) representan una gran parte de los datos, creando posibles sesgos en los datos.
 
 ## Acciones recomendadas:
-- Optimizar procesos:
+- **Optimizar procesos:**
 
 ➢ Analizar los flujos de trabajo y sistemas actuales para identificar posibles cuellos de botella.
 
 ➢ Implementar mejoras en los procesos para agilizar el manejo de llamadas y reducir el tiempo que los
 clientes pasan esperando.
 
-- Mejorar la capacitación:
+- **Mejorar la capacitación:**
 
 ➢ Proporcionar a los operadores capacitación adicional sobre el manejo eficiente de llamadas, incluyendo
 técnicas de comunicación, manejo de objeciones y resolución de problemas.
 
-- Ajustar la asignación de personal:
+- **Ajustar la asignación de personal:**
 
 ➢ Analizar la demanda de llamadas en diferentes horarios y días de la semana para optimizar la programación
 del personal y asegurar una cobertura adecuada en los momentos de mayor demanda.
