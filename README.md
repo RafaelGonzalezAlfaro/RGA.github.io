@@ -108,3 +108,79 @@ del personal y asegurar una cobertura adecuada en los momentos de mayor demanda.
 
 ➢ Utilizar sistemas que distribuyan las llamadas de manera más eficiente entre los operadores disponibles,
 teniendo en cuenta la experiencia y habilidades de cada uno, con una mejor clasificación del cliente que llama.
+
+## Comportamiento de 2 Grupos en Tienda Internacional
+
+El objetivo de este analisis es evaluar la efectividad de las pruebas A/B realizadas por el equipo anterior, 
+para asi determinar si hubo diferencias significativas en el comportamiento de los usuarios entre los grupos A y B en las pruebas que se mencionan:
+
+**recommender_system_test**
+**interface_eu_test**
+
+Tambien se analizó la influencia de campañas de marketing al probar cambios relacionados con la introducción de un sistema de recomendaciones 
+mejorada y evaluar la distribución geográfica, dispositivo utilizado y actividad para detectar posibles sesgos en la asignación de grupos.
+
+### Metodología
+
+- **Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
+- **Exploratory Data Analysis (EDA):** Se analizaron distintos datos, se crearon graficas para visualizacion de datos mas claramente
+- **Pruebas A/B:** Se realizaron pruebas A/B para comprobar si el comportambiento entre ambos grupos es significativamente distinto.
+
+Herramientas utilizadas en este proyecto:
+
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23357ebd.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
+![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Pruebas A/B](https://img.shields.io/badge/A/B_Testing-orange)
+
+
+## Preguntas clave del análisis:
+
+1. ¿El número de eventos por usuario está distribuido equitativamente entre las muestras?
+2. ¿Que porcentaje del total de personas llegan desde la primera hasta a la ultima etapa?
+3. ¿Cómo se distribuye el número de eventos entre los días?
+
+## Conclusiones Generales:
+### Deacuerdo al comportamiento de los grupos para cada evento:
+- **login**: podemos observar que no hay diferencias significativas entre el grupo A y B en esta etapa, ya que, el 100% de los usuarios pasan por esta etapa.
+- **product_page**: observamos una diferencia estadísticamente significativa entre los grupos A y B. El grupo A tuvo una tasa de conversión mayor que el grupo B.
+- **product_cart**: No se observa una diferencia significativa entre los grupos A y B en este evento.
+- **purchase**: podemos observar una diferencia estadísticamente significativa entre los grupos A y B para el evento purchase. El grupo A tuvo una tasa de conversión mayor que el grupo B.
+
+## Recomendaciones:
+-  Para **recommender_system_test**, deacuerdo al análisis, se descubrio que el Grupo B es significativamente mas pequeño que el grupo A,
+el desequilibrio puede sesgar los resultados, por lo cual se recomienda reequilibrar los grupos o recolectar más datos para el grupo B antes de analizar los resultados.
+- Se recomienda reestructurar las paginas de **Product_page** para se mas llamativas y amigables, ya que, deacuerdo al análisis, pudimos notar que solo el 34% de los usuarios pasan de la
+etapa del registo a la pagina del producto, esto quiza porque tuvieron una mala experiencia con la pagina, por lo cual no pudieron navegar o simplemente perdieron interés.
+Y esto afecta directamenta las siguientes 2 etapas del proceso. 
+
+## Visualizaciones destacadas
+
+1. **Comportamiento de personas en cada Etapa**
+Deacuerdo al resultado mostrado, podemos analizar que:
+
+- **Login**: 58,696 usuarios únicos completaron esta etapa. Al ser la primera etapa, la tasa de conversión es del 100%, osease,
+  todos los usuarios pasan por aqui.
+- **Product_page**: 38,929 usuarios unicos llegaron a esta etapa,esto nos indica que aproximadamente el 33.68% de los usuarios que se
+  registraron no llegaron a ver una página de producto. 
+- **Product_cart**: 19,284 usuarios únicos añadieron un producto al carrito.Esto nos dice que casi la mitad de los usuarios (50.46%) que vieron
+  una página de producto no añadieron un producto al carrito.
+  Nuevamente, esto nos dice que quiza tuvieron problemas tecnicos con la pagina o simplemente los productos se les hicieron caros.
+- **Purchase**: 19,568 usuarios únicos realizaron una compra. La tasa de conversión es 1.47% lo cual nos dice que solo un pequeño porcentaje
+  de los usuarios que añadieron un producto al carrito completaron la compra. Quiza algunos usuarios no añadieron el producto al carrito, si no que compraron directamente.
+
+![Grafica embudo](/assets/img/conversion.png)
+
+2. **Distribución de los eventos a lo largo del tiempo**
+La siguiente gráfica nos muestra la distribución del número de eventos de usuario diarios para los grupos A y B a lo largo del tiempo.
+Podemos observar que ambos grupos muestran un crecimiento en el número de eventos desde el inicio del periodo hasta alrededor del 21 de diciembre,
+siendo este dia el pico mas grande de actividad, siendo mas alto en el Grupo A y despues caen considerablemente.
+Esto nos dice que quiza por las fechas, las compras de ultimo momento son mayores este dia por las fechas festivas siguientes, y posterior a esta fecha ya no hay tantas compras.
+
+![Distribucion usuarios](/assets/img/distribucion_usuarios.png)
+
+**Más detalles de este proyecto aqui -> [Repositorio completo](https://github.com/RafaelGonzalezAlfaro/recommender_system_test).**
