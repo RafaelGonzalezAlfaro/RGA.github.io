@@ -114,8 +114,8 @@ teniendo en cuenta la experiencia y habilidades de cada uno, con una mejor clasi
 El objetivo de este analisis es evaluar la efectividad de las pruebas A/B realizadas por el equipo anterior, 
 para asi determinar si hubo diferencias significativas en el comportamiento de los usuarios entre los grupos A y B en las pruebas que se mencionan:
 
-**recommender_system_test**
-**interface_eu_test**
+- **recommender_system_test**
+- **interface_eu_test**
 
 Tambien se analizó la influencia de campañas de marketing al probar cambios relacionados con la introducción de un sistema de recomendaciones 
 mejorada y evaluar la distribución geográfica, dispositivo utilizado y actividad para detectar posibles sesgos en la asignación de grupos.
@@ -152,9 +152,9 @@ Herramientas utilizadas en este proyecto:
 - **purchase**: podemos observar una diferencia estadísticamente significativa entre los grupos A y B para el evento purchase. El grupo A tuvo una tasa de conversión mayor que el grupo B.
 
 ## Recomendaciones:
--  Para **recommender_system_test**, deacuerdo al análisis, se descubrio que el Grupo B es significativamente mas pequeño que el grupo A,
-el desequilibrio puede sesgar los resultados, por lo cual se recomienda reequilibrar los grupos o recolectar más datos para el grupo B antes de analizar los resultados.
-- Se recomienda reestructurar las paginas de **Product_page** para se mas llamativas y amigables, ya que, deacuerdo al análisis, pudimos notar que solo el 34% de los usuarios pasan de la
+-  Para **recommender_system_test**, deacuerdo al análisis, se descubrio que el Grupo B es **significativamente mas pequeño** que el grupo A,
+el desequilibrio puede sesgar los resultados, por lo cual se recomienda **reequilibrar los grupos** o recolectar más datos para el grupo B antes de analizar los resultados.
+- Se recomienda reestructurar las paginas de **Product_page** para se mas llamativas y amigables, ya que, deacuerdo al análisis, pudimos notar que **solo el 34%** de los usuarios pasan de la
 etapa del registo a la pagina del producto, esto quiza porque tuvieron una mala experiencia con la pagina, por lo cual no pudieron navegar o simplemente perdieron interés.
 Y esto afecta directamenta las siguientes 2 etapas del proceso. 
 
@@ -163,15 +163,13 @@ Y esto afecta directamenta las siguientes 2 etapas del proceso.
 1. **Comportamiento de personas en cada Etapa**
 Deacuerdo al resultado mostrado, podemos analizar que:
 
-- **Login**: 58,696 usuarios únicos completaron esta etapa. Al ser la primera etapa, la tasa de conversión es del 100%, osease,
-  todos los usuarios pasan por aqui.
-- **Product_page**: 38,929 usuarios unicos llegaron a esta etapa,esto nos indica que aproximadamente el 33.68% de los usuarios que se
+- **Login**: 58,696 usuarios únicos completaron esta etapa. Al ser la primera etapa,  todos los usuarios pasan por aqui.
+- **Product_page**: 38,929 usuarios unicos llegaron a esta etapa,esto nos indica que aproximadamente el **33.68%** de los usuarios que se
   registraron no llegaron a ver una página de producto. 
-- **Product_cart**: 19,284 usuarios únicos añadieron un producto al carrito.Esto nos dice que casi la mitad de los usuarios (50.46%) que vieron
+- **Product_cart**: 19,284 usuarios únicos añadieron un producto al carrito. Esto nos dice que casi la mitad de los usuarios **(50.46%)** que vieron
   una página de producto no añadieron un producto al carrito.
-  Nuevamente, esto nos dice que quiza tuvieron problemas tecnicos con la pagina o simplemente los productos se les hicieron caros.
-- **Purchase**: 19,568 usuarios únicos realizaron una compra. La tasa de conversión es 1.47% lo cual nos dice que solo un pequeño porcentaje
-  de los usuarios que añadieron un producto al carrito completaron la compra. Quiza algunos usuarios no añadieron el producto al carrito, si no que compraron directamente.
+- **Purchase**: 19,568 usuarios únicos realizaron una compra. lo cual nos dice que solo un pequeño porcentaje
+  de los usuarios que añadieron un producto al carrito completaron la compra.
 
 ![Grafica embudo](/assets/img/conversion.png)
 
